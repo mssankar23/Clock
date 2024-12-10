@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+body {
+    background-color: rgb(2,0,36);
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+}
+.Digital
+{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(246, 246, 247);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+font-size: 5rem;
+gap: 5px;
+
+}
+#clock
+{
+border: 3px solid white;
+padding: 1rem;
+border-radius: 50px;
+}
+.clock span{
+    margin-left: 20px;
+}
+#am{
+    font-size: 4.5rem;
+    align-items: end;
+}
